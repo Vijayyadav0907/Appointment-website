@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.custom-heading {
+  font-size: 36px;
+  line-height: 46px;
+  color: #333; /* Replace with the correct heading color */
+
+  @media (min-width: 768px) { /* For md screens and up */
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+/* App.css */
+body {
+  background: linear-gradient(to right, #f0f8ff, #e6e6fa);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+
